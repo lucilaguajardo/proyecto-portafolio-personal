@@ -5,7 +5,8 @@
 ## Contenidos
 * [Descripción](#descripción)
 * [Tecnologías](#tecnologías)
-* [Setup](#setup)
+* [Vista preliminar](#vista)
+* [Agradecimientos](#agradecimientos)
 
 ### Descripción
 
@@ -33,7 +34,8 @@ Este es el primer proyecto del **Curso de Desarrollo Front-End de Ada** y perten
 ## Contents
 * [Description](#description)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Preview](#preview)
+* [Thanks](#thanks)
 
 ### Description
 
