@@ -55,13 +55,9 @@ header {
     box-sizing: none;
 }
 
-/*** Menu icon ***/
+/*** Breakpoint 1 at 1200px ***/
 
-
-
-/*** Breakpoint 1 at 1100px ***/
-
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
     header {
         justify-content: center;
     }

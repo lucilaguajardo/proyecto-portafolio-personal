@@ -141,7 +141,7 @@ button {
     align-items: center;
     /*Font*/
     font-family: Axiforma;
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 3px;
     color: #e6e6e6;
     /*Box style*/
@@ -149,6 +149,7 @@ button {
     border-radius: 100px;
     border: none;
     background-color: rgba(25, 27, 25, 0.5);
+    opacity: 90%;
     transition: 1s;
 }
 

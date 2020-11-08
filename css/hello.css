@@ -14,9 +14,22 @@
     width: 50%;
 }
 
-/*** Breakpoint 1 at 950px ***/
+/*** Breakpoint 1 at 1200 ***/
 
-@media (max-width: 950px){
+@media (max-width: 1200px) {
+
+    .hello-section {
+        flex-direction: column;
+    }
+
+    .hello-information {
+        width: 100%;
+    }
+}
+
+/*** Breakpoint 2 at 950px ***/
+
+@media (max-width: 950px) {
 
     .hello-information {
         display: flex;
