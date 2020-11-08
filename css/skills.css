@@ -56,6 +56,7 @@
         margin-top: 5%;
         margin-bottom: 0;
     }
+
     .skill i {
         font-size: 60px;
         margin-bottom: 15px;
@@ -68,10 +69,16 @@
     .skills-container {
         padding: 5%;
     }
+
     .skill {
         width: 100px;
         height: 100px;
         border-radius: 15px;
+    }
+
+    .skill-title {
+        font-size: 8px;
+        letter-spacing: 1px;
     }
 
     .skill i {
