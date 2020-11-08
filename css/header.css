@@ -55,6 +55,15 @@ header {
     box-sizing: none;
 }
 
+/*** Menu hamburguesa ***/
+
+header i {
+    display: none;
+    align-self: center;
+    justify-self: center;
+    color: rgba(25, 27, 25, 0.5);
+}
+
 /*** Breakpoint 1 at 1200px ***/
 
 @media (max-width: 1200px) {
@@ -67,6 +76,9 @@ header {
 
 @media (max-width: 950px) {
     header {
+        border-bottom: none;
+    }
+    .nav-header {
         display: none;
     }
 }

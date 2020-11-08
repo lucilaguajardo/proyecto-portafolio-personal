@@ -82,7 +82,7 @@ footer {
 @media (max-width: 500px) {
     footer {
         width: 85%;
-        height: 4%;
-        padding: 2rem 0;
+        padding: 1.5rem 0;
+        box-sizing: none;
     }
 }

@@ -1,7 +1,7 @@
 /*** Contact section ***/
 
 .contact-section {
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .contact-container {
@@ -25,6 +25,7 @@
 
 .contact-text {
     width: 80%;
+    margin-bottom: 8%;
 }
 
 /*** Form / Estructure ***/
@@ -42,6 +43,32 @@ form {
     display: flex;
     flex-direction: column;
     margin-bottom: 25px;
+}
+
+/*** Media links ***/
+
+.contact-media-item {
+    flex-direction: column;
+    margin-bottom: 25px;
+    z-index: 200;
+}
+
+.contact-media-a {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-bottom: 25px;
+    color: #292929;
+    transition: 1s;
+}
+
+.contact-media-a:hover {
+    letter-spacing: 5px;
+}
+
+.contact-media-a i {
+    font-size: 20px;
+    margin-right: 15px;
 }
 
 /*** Label ***/
@@ -85,15 +112,14 @@ input:focus::placeholder {
     color: transparent;
 }
 
-.form-input:nth-of-type(1) {
-    margin-right: 1.5em;
+.input-firstname {
+    margin-right: 30px;
 }
 
-.form-input:nth-of-type(1),
-.form-input:nth-of-type(2) {
+.complete-name .form-input {
     flex-grow: 1;
     flex-shrink: 1;
-    max-width: 47%;
+    max-width: 50%;
 }
   
 /*** Textarea ***/
@@ -164,6 +190,16 @@ button:hover {
     background-color: rgba(25, 27, 25, 0.6);
 }
 
+/*** Breakpoint 1 at 1200px ***/
+@media (max-width: 1200px) {
+    .contact-container {
+        text-align: left;
+    }
+
+    .contact-text {
+        max-width: 85%;
+    }
+
 /*** Breakpoint 2 at 950px ***/
 
 @media (max-width: 950px) {
@@ -190,13 +226,21 @@ button:hover {
     }
 
     .contact-text {
-        width: 60%;
+        max-width: 60%;
         font-size: 0.7rem;
-        text-align: left;
     }
 
     label {
         text-align: left;
+    }
+}
+
+/*** Breakpoint at 750px ***/
+
+@media (max-width: 750px) {
+    .contact-me{
+        max-width: 80%;
+        margin-bottom: 20px;
     }
 }
 
@@ -210,6 +254,7 @@ button:hover {
     }
         
     .contact-me{
+        max-width: 100%;
         margin-bottom: 20px;
     }
 
@@ -225,18 +270,17 @@ button:hover {
         flex-shrink: none;
     }
 
-    .form-input:nth-of-type(1) {
+    .input-firstname {
         margin-right: 0;
     }
-
-    .form-input:nth-of-type(1),
-    .form-input:nth-of-type(2) {
-        flex-grow: none;
-        flex-shrink: none;
+    
+    .complete-name .form-input {
         max-width: 100%;
     }
+
+    }
     .contact-text {
-        width: 100%;
+        max-width: 100%;
         font-size: 0.7rem;
         text-align: left;
     }
