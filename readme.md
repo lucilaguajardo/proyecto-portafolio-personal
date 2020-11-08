@@ -17,11 +17,11 @@ Este es el primer proyecto del **Curso de Desarrollo Front-End de Ada** y perten
 * HTML5
 * CSS3
 
-### Vista preliminar &#128187;
+### Avances
 
 [Image](http://url/a.png)
 
-### Agradecimientos	&#127881;
+### Agradecimientos
 
 * A Jonh y Leydy
 * A mi familia y amigos
@@ -46,11 +46,11 @@ This is the first project from **Ada's Front-End Development Course** and it bel
 * HTML5
 * CSS3
 
-### Preview;
+### Preview
 
 [Image](http://url/a.png)
 
 
-### Thanks;
+### Thanks
 * To Jonh and Leydy
 * To my family and friends
