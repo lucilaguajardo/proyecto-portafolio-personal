@@ -55,10 +55,6 @@ footer {
     transition: 1s;
 }
 
-.social-links {
-    text-decoration: none;
-}
-
 .footer-media-icons i:hover {
     font-size: 30px;
 }

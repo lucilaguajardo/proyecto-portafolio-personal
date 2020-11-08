@@ -187,6 +187,10 @@ h3 {
     line-height: 55px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*** Breakpoint 1 at 1200px ***/
 
 @media (max-width: 1200px) {
