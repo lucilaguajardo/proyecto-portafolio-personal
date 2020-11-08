@@ -50,7 +50,6 @@ form {
 .contact-media-item {
     flex-direction: column;
     margin-bottom: 25px;
-    z-index: 200;
 }
 
 .contact-media-a {
@@ -59,6 +58,7 @@ form {
     justify-items: center;
     margin-bottom: 25px;
     color: #292929;
+    z-index: 200;
     transition: 1s;
 }
 
@@ -156,6 +156,12 @@ textarea::placeholder {
 
 textarea:focus::placeholder {
     color: transparent;
+}
+
+/*** Validation ***/
+
+abbr {
+    text-decoration: none;
 }
 
 /*** Send button ***/

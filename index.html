@@ -24,7 +24,9 @@
     <div class="noise"></div>
     <!-- ##### HEADER ##### -->
     <header>
-        <i class="fas fa-bars"></i>
+        <a href="#" target="_self" class="menu-header">
+            <i class="fas fa-bars"></i>
+        </a>
         <nav class="nav-header">
             <ul class="ul-nav-header">
                 <li class="item-nav-header">
@@ -158,21 +160,29 @@
                 <form class="contact-form">
                     <div class="complete-name">
                         <div class="form-input">
-                            <label for="firstname">Nombre *</label>
-                            <input type="text" name="Nombre" class="input-firstname" placeholder="Lucila">
+                            <label for="firstname">Nombre 
+                                <abbr title="required" aria-label="required">*</abbr>
+                            </label>
+                            <input type="text" name="Nombre" class="input-firstname" placeholder="Lucila" aria-label="Nombre" required>
                         </div>
                         <div class="form-input">
-                            <label for="lastname">Apellido *</label>
-                            <input type="text" name="Apellido" class="input-lastname" placeholder="Guajardo">
+                            <label for="lastname">Apellido 
+                                <abbr title="required" aria-label="required">*</abbr>
+                            </label>
+                            <input type="text" name="Apellido" class="input-lastname" placeholder="Guajardo" aria-label="Apellido" required>
                         </div>
                     </div>
                     <div class="form-input">
-                        <label for="email">E-mail *</label>
-                        <input type="text" name="E-mail" class="input-e-mail" placeholder="lucilaguajardo@gmail.com">
+                        <label for="email">E-mail
+                            <abbr title="required" aria-label="required">*</abbr>
+                        </label>
+                        <input type="text" name="E-mail" class="input-e-mail" placeholder="lucilaguajardo@gmail.com" aria-label="Email" required>
                     </div>
                     <div class="form-input">
-                        <label for="message">Mensaje *</label>
-                        <textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control" placeholder="Escribime un mensaje aquí"></textarea>
+                        <label for="message">Mensaje 
+                            <abbr title="required" aria-label="required">*</abbr>
+                        </label>
+                        <textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control" placeholder="Escribime un mensaje aquí" aria-label="Message" required></textarea>
                     </div>
                     <button type="submit" class="contact-send-button">ENVIAR</button>
                 </form>

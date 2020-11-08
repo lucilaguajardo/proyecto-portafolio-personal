@@ -8,7 +8,7 @@ header {
     width: 95%;
     /* position: fixed; */
     height: 80px;
-    border-bottom: 1px solid #292929;
+    border-bottom: 1px solid rgba(25, 27, 25, 0.3);
     background-color:#e6e6e6;
 }
 
@@ -57,11 +57,12 @@ header {
 
 /*** Menu hamburguesa ***/
 
-header i {
-    display: none;
+.menu-header {
+    display: none !important;
     align-self: center;
     justify-self: center;
-    color: rgba(25, 27, 25, 0.5);
+    color: black;
+    z-index: 300;
 }
 
 /*** Breakpoint 1 at 1200px ***/
@@ -78,7 +79,15 @@ header i {
     header {
         border-bottom: none;
     }
+
     .nav-header {
         display: none;
+    }
+
+    .menu-header {
+        display: flex !important;
+        align-self: center;
+        justify-self: center;
+        color: rgba(25, 27, 25, 0.6);
     }
 }

@@ -2,7 +2,7 @@
 
 .projects-section {
     flex-direction: column;
-    border-top: 0.05rem solid #292929;
+    border-top:  1px solid rgba(25, 27, 25, 0.3);
 }
 
 .projects-container {
