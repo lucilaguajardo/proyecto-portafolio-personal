@@ -82,8 +82,8 @@ section {
     display: flex;
     /*Box style*/
     height: fit-content;
-    padding: 10vh 0;
-    margin-bottom: 2vh;
+    padding: 10% 0;
+    margin-bottom: 2%;
     border-bottom: 1px solid rgba(25, 27, 25, 0.3);
 }
 
@@ -221,6 +221,10 @@ h3 {
 @media (max-width: 750px) {
     main {
         width: 90%;
+    }
+
+    section {
+        margin-bottom: 5%;
     }
 }
 
