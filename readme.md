@@ -5,7 +5,7 @@
 ## Contenidos
 * [Descripción](#descripción)
 * [Tecnologías](#tecnologías)
-* [Vista preliminar](#vista preliminar)
+* [Avances](#avances)
 * [Agradecimientos](#agradecimientos)
 
 ### Descripción
