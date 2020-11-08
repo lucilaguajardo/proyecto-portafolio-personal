@@ -1,6 +1,6 @@
 # Proyecto Portafolio Personal - (ES)
 
-## Podés verlo haciendo click [acá.](http://a.com)
+## Podés verlo haciendo click [acá.](https://lucilaguajardo.github.io/proyecto-portafolio-personal/)
 
 ## Contenidos
 * [Descripción](#descripción)
@@ -29,7 +29,7 @@ Este es el primer proyecto del **Curso de Desarrollo Front-End de Ada** y perten
 
 # Personal Portfolio Project - (EN)
 
-## You can check it out by clicking [here.](http://a.com)
+## You can check it out by clicking [here.](https://lucilaguajardo.github.io/proyecto-portafolio-personal/)
 
 ## Contents
 * [Description](#description)
