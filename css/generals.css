@@ -1,0 +1,245 @@
+/*** Generals ***/
+
+/*** Fonts ***/
+
+@font-face {
+    src: url(../fonts/Matroska.ttf);
+    font-family: Matroska;
+}
+
+@font-face {
+    src: url(..//fonts/Axiforma/Axiforma-Medium.ttf);
+    font-family: Axiforma;
+}
+
+/*** Scrollbar ***/
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #292929;
+    border-radius: 100px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #292929;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #292929;
+  }
+  ::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 100px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background:  transparent;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-corner {
+    background:  transparent;
+  }
+  
+/*** Reset ***/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*** Layout ***/
+
+body {
+    /*Flex*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*Box style*/
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color:#e6e6e6;
+    /*Font*/
+    color: #292929;
+    text-transform: uppercase;
+}
+
+main {
+    /*Flex*/
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    /*Box style*/
+    width: 95%;
+    height: fit-content;
+}
+
+section {
+    /*Flex*/
+    display: flex;
+    /*Box style*/
+    height: fit-content;
+    padding: 10vh 0;
+    margin-bottom: 2vh;
+    border-bottom: 1px solid rgba(25, 27, 25, 0.3);
+}
+
+/*** Noise ***/
+
+.noise {
+    background-image: url(../img/noise.png);
+    animation: noise 1s steps(10) infinite;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+    opacity: 70%;
+}
+
+@keyframes noise {
+    0%, 100% {
+        background-position: 0 0;
+    }
+    10% {
+        background-position: -80% 10%;
+    }
+    20% {
+        background-position: -50% 40%;
+    }
+    30% {
+        background-position: -30% 5%;
+    }
+    40% {
+        background-position: -90% 40%;
+    }
+    50% {
+        background-position: -5% 70%;
+    }
+    60% {
+        background-position: -50% 15%;
+    }
+    70% {
+        background-position: -90% 5%;
+    }
+    80% {
+        background-position: -10% 95%;
+    }
+    90% {
+        background-position: -70% 45%;
+    }
+}
+
+/*** Font generals ***/
+
+h1 {
+    font-family: Matroska;
+    font-size: 4.375em;
+    letter-spacing: 2px;
+    margin-bottom: 7vh;
+    line-height: 55px;
+    transition: letter-spacing 7s;
+}
+
+.section-number {
+    font-family: Axiforma;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 5vh;
+    color: rgba(25, 27, 25, 0.5);
+}    
+
+p {
+    font-family: Axiforma;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.text {
+    width: 40%;
+}
+
+.hello-description {
+    font-family: Axiforma;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.description {
+    font-family: Axiforma;
+    font-size: 7px;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-family: Matroska;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: Matroska;
+    font-size: px;
+    letter-spacing: 2px;
+    line-height: 55px;
+}
+
+/*** Breakpoint 1 at 1200px ***/
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 3.5em;
+    }
+
+    body {
+        text-align: center;
+    }
+    
+    section {
+        align-items: center;
+    }
+
+    h2 {
+        text-align: left;
+    }
+}
+
+
+/*** Breakpoint 1 at 950px ***/
+
+@media (max-width: 950px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+/*** Breakpoint 3 at 750px ***/
+
+@media (max-width: 750px) {
+    main {
+        width: 90%;
+    }
+}
+
+/*** Breakpoint 3 at 500px ***/
+
+@media (max-width: 500px) {
+    main {
+        width: 85%;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .text {
+        width: 80%;
+    }
+}

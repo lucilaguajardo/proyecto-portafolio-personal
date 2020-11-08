@@ -1,0 +1,35 @@
+/*** Quote section ***/
+
+.quote-section {
+    /*Flex*/
+    flex-direction: column; 
+    align-items: center;
+    /*Box style*/
+    border-bottom: none;
+    background-color: #292929;
+    /*Font*/
+    color: #e6e6e6;
+    text-align: center;
+}
+
+.quote-text {
+    font-family: Axiforma;
+    font-size: 11px;
+    letter-spacing: 3px;
+    width: 40%;
+}
+
+.quote-section-number {
+    font-family: Axiforma;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 5vh;
+}    
+
+/*** Breakpoint 1 at 950px ***/
+
+@media (max-width: 950px) {
+    .quote-text{
+        width: 70%;
+    }
+}

@@ -1,0 +1,76 @@
+/*** Header ***/
+
+header {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 95%;
+    /* position: fixed; */
+    height: 80px;
+    border-bottom: 1px solid #292929;
+    background-color:#e6e6e6;
+}
+
+.nav-header {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.ul-nav-header {
+    display: flex;
+}
+
+/*** Nav items ***/
+
+.item-nav-header {
+    font-family: Axiforma;
+    font-size: 10px;
+    list-style: none;
+    letter-spacing: 3px;
+    margin-left: 30px;
+    z-index: 52;
+    transition: letter-spacing 1s;
+}
+
+.a-nav {
+    text-decoration: none;
+    color:  #292929;
+}
+
+.item-nav-header:hover {
+    letter-spacing: 7px;
+}
+
+.ul-nav-header:nth-last-child {
+   padding: 5px;
+   border: 1px;
+   box-sizing: none;
+}
+
+.ul-nav-header:nth-last-child {
+    padding: 5px;
+    border: 1px;
+    box-sizing: none;
+}
+
+/*** Menu icon ***/
+
+
+
+/*** Breakpoint 1 at 1100px ***/
+
+@media (max-width: 1100px) {
+    header {
+        justify-content: center;
+    }
+}
+
+/*** Breakpoint 2 at 950px ***/
+
+@media (max-width: 950px) {
+    header {
+        display: none;
+    }
+}

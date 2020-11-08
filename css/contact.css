@@ -1,0 +1,248 @@
+/*** Contact section ***/
+
+.contact-section {
+    flex-direction: column; 
+}
+
+.contact-container {
+    /*Flex*/
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    /*Box style*/
+    width: 90%;
+    padding: 30px 40px;
+    border: 1px solid rgba(25, 27, 25, 0.3);
+    border-radius: 25px;
+}
+
+.contact-me,
+.write-me {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact-text {
+    width: 80%;
+}
+
+/*** Form / Estructure ***/
+
+form {
+    z-index: 60;
+}
+
+.complete-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+/*** Label ***/
+
+label {
+    font-family: Axiforma;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+/*** Input ***/
+
+input {
+    /*Font*/
+    font-family: Axiforma;
+    font-size: 10px;
+    letter-spacing: 3px;
+    /*Box style*/
+    border-radius: 100px;
+    border: none;
+    padding: 10px 20px;
+    box-sizing: none;
+    background-color: rgba(25, 27, 25, 0.2);
+    transition: 1s;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+    outline-width: 0;
+    background-color: rgba(25, 27, 25, 0.1);
+}
+
+input::placeholder {
+    color: #616161;
+    letter-spacing: 3px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.form-input:nth-of-type(1) {
+    margin-right: 1.5em;
+}
+
+.form-input:nth-of-type(1),
+.form-input:nth-of-type(2) {
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 47%;
+}
+  
+/*** Textarea ***/
+
+textarea {
+    /*Font*/
+    font-family: Axiforma;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #292929;
+    /*Box style*/
+    border-radius: 20px;
+    border: none;
+    padding: 20px 25px;
+    resize: none;
+    background-color: rgba(25, 27, 25, 0.2);
+}
+
+textarea:focus {
+    border: none;
+    outline:none !important;
+    outline-width: 0 !important;
+    background-color: rgba(25, 27, 25, 0.1);
+    transition: 1s;
+}
+
+textarea::placeholder {
+    font-family: Axiforma;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #616161;
+}
+
+textarea:focus::placeholder {
+    color: transparent;
+}
+
+/*** Send button ***/
+
+button {
+    /*Flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Font*/
+    font-family: Axiforma;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #e6e6e6;
+    /*Box style*/
+    padding: 15px 40px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgba(25, 27, 25, 0.5);
+    transition: 1s;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+    outline-width: 0;
+}
+
+button:hover {
+    letter-spacing: 7px;
+    background-color: rgba(25, 27, 25, 0.6);
+}
+
+/*** Breakpoint 1 at 1100px ***/
+
+@media (max-width: 1100px) {
+
+    .contact-text {
+        width: 60%;
+        font-size: 0.7rem;
+        text-align: left;
+    }
+}
+
+@media (max-width: 950px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+        
+    .contact-me,
+    .write-me {
+        width: 100%;
+    }
+
+    .contact-me {
+        margin-bottom: 5%;
+    }
+
+    .write-me {
+        padding-top: 5%;
+        border-top: 1px solid rgba(25, 27, 25, 0.3);
+    }
+
+    label {
+        text-align: left;
+    }
+}
+
+/*** Breakpoint 2 at 500px ***/
+
+@media (max-width: 500px) {
+    .contact-container {
+        width: 100% ;
+        padding: 0;
+        border: none;
+    }
+        
+    .contact-me{
+        margin-bottom: 20px;
+    }
+
+    .write-me {
+        padding-top: 20px;
+        border-top: 1px solid rgba(25, 27, 25, 0.3);
+    }
+
+    .complete-name {
+        display: flex;
+        flex-direction: column;
+        flex-grow: none;
+        flex-shrink: none;
+    }
+
+    .form-input:nth-of-type(1) {
+        margin-right: 0;
+    }
+
+    .form-input:nth-of-type(1),
+    .form-input:nth-of-type(2) {
+        flex-grow: none;
+        flex-shrink: none;
+        max-width: 100%;
+    }
+    .contact-text {
+        width: 100%;
+        font-size: 0.7rem;
+        text-align: left;
+    }
+
+    .contact-send-button {
+        margin: 0 auto;
+    }
+}

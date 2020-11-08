@@ -1,0 +1,32 @@
+/*** Hello section ***/
+
+.hello-section {
+    /*Flex*/
+    justify-content: left;
+    flex-direction: row;
+    /*Box style*/
+    min-height: calc(100% - 80px);
+}
+
+.hello-information {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+/*** Breakpoint 1 at 950px ***/
+
+@media (max-width: 950px){
+
+    .hello-information {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hello-description {
+        width: 80%;
+    }
+}
