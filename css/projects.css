@@ -41,3 +41,11 @@
     text-decoration: none;
     color: #292929;
 }
+
+/*** Breakpoint 1 at 500px ***/
+
+@media (max-width: 300px) {
+    .projects-container {
+        padding: 0;
+    }
+}

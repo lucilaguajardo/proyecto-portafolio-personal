@@ -12,6 +12,13 @@
     text-align: center;
 }
 
+.quote-section-number {
+    font-family: Axiforma;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 5vh;
+}   
+
 .quote-text {
     font-family: Axiforma;
     font-size: 11px;
@@ -19,13 +26,14 @@
     width: 40%;
     margin-bottom: 35px;
 }
+ 
+.quote-section i {
+    font-size: 65px;
+    color: #e6e6e6;
+    margin-bottom: 5%;
+}
 
-.quote-section-number {
-    font-family: Axiforma;
-    font-size: 10px;
-    letter-spacing: 3px;
-    margin-bottom: 5vh;
-}    
+
 
 /*** Breakpoint 1 at 950px ***/
 
@@ -33,7 +41,16 @@
     .quote-section {
         padding: 25% 8%;
     }
-    .quote-text{
+
+    .quote-text {
         width: 70%;
     }
+
+     
+    .quote-section i {
+        font-size: 50px;
+        color: #e6e6e6;
+        margin-bottom: 5%;
+    }
+
 }
