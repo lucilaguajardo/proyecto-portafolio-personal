@@ -31,7 +31,7 @@
 /*** Form / Estructure ***/
 
 form {
-    z-index: 60;
+    z-index: 4;
 }
 
 .complete-name {
@@ -50,6 +50,12 @@ form {
 .contact-media-item {
     flex-direction: column;
     margin-bottom: 25px;
+    width: fit-content;
+    transition: 1s;
+}
+
+.contact-media-links {
+    z-index: 4;
 }
 
 .contact-media-a {
@@ -58,15 +64,6 @@ form {
     justify-items: center;
     margin-bottom: 25px;
     color:  var(--dark);
-    transition: 1s;
-}
-
-.contact-media-links {
-    z-index: 200;
-}
-
-.contact-media-item {
-    width: fit-content;
     transition: 1s;
 }
 

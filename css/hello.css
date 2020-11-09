@@ -5,7 +5,7 @@
     justify-content: left;
     flex-direction: row;
     /*Box style*/
-    min-height: calc(100% - 80px);
+    max-height: calc(100% - 80px);
 }
 
 .hello-information {

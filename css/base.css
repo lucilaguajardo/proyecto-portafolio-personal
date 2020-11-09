@@ -197,7 +197,7 @@ h2 {
 
 h3 {
     font-family: Matroska;
-    font-size: 25px;
+    font-size: 1.1em;
     letter-spacing: 2px;
     line-height: 55px;
 }
@@ -273,7 +273,8 @@ a {
     }
 
     h3 {
-        line-height: 20px;
+        font-size: 1.1em;
+        line-height: 19px;
     }
 
     .text {
