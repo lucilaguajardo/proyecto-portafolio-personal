@@ -6,10 +6,9 @@
     align-items: center;
     /*Box style*/
     border-bottom: none;
-    background-color: #292929;
+    background-color: var(--dark);
     /*Font*/
-    color: #e6e6e6;
-    text-align: center;
+    color: var(--light);
 }
 
 .quote-section-number {
@@ -29,7 +28,7 @@
  
 .quote-section i {
     font-size: 65px;
-    color: #e6e6e6;
+    color: var(--light);
     margin-bottom: 5%;
 }
 

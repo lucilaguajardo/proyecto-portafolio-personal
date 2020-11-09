@@ -23,7 +23,7 @@
     width: 210px;
     height: 210px;
     margin: 10px;
-    background-color: rgba(25, 27, 25, 0.1);
+    background-color: var(--translucent-dark-1);
     border-radius: 25px;
 }
 

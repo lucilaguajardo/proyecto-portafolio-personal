@@ -11,9 +11,9 @@ footer {
     height: 10%;
     margin-bottom: 2%;
     padding: 7rem 0;
-    background-color: #292929;
+    background-color: var(--dark);
     /*Font*/
-    color: #e6e6e6;
+    color: var(--light);
 }
 
 .nav-footer {
@@ -39,7 +39,7 @@ footer {
 
 .a-footer {
     text-decoration: none;
-    color: #e6e6e6;
+    color: var(--light);
 }
 
 .item-nav-footer:hover {
@@ -53,7 +53,7 @@ footer {
 
 .footer-media-icons i  {
     font-size: 25px;
-    color: #e6e6e6;
+    color: var(--light);
     opacity: 80%;
     padding: 0 25px;
     box-sizing: none;

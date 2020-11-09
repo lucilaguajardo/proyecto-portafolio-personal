@@ -1,4 +1,4 @@
-/*** Generals ***/
+/*** Base ***/
 
 /*** Fonts ***/
 
@@ -12,24 +12,38 @@
     font-family: Axiforma;
 }
 
+/*** Color variables ***/
+
+:root {
+    --light: #e6e6e6;
+    --placeholder-grey: #616161;
+    --dark: #292929;
+    --translucent-dark-1: rgba(25, 27, 25, 0.1);
+    --translucent-dark-2: rgba(25, 27, 25, 0.2);
+    --translucent-dark-3: rgba(25, 27, 25, 0.3);
+    --translucent-dark-4: rgba(25, 27, 25, 0.4);
+    --translucent-dark-5: rgba(25, 27, 25, 0.5);
+    --translucent-dark-6: rgba(25, 27, 25, 0.5);
+}
+
 /*** Scrollbar ***/
 
-::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     width: 5px;
     height: 5px;
   }
   ::-webkit-scrollbar-thumb {
-    background: #292929;
+    background: var(--dark);
     border-radius: 100px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #292929;
+    background: var(--dark);
   }
   ::-webkit-scrollbar-thumb:active {
-    background: #292929;
+    background: var(--dark);
   }
   ::-webkit-scrollbar-track {
-    background: #e1e1e1;
+    background: var(--light);
     border-radius: 100px;
   }
   ::-webkit-scrollbar-track:hover {
@@ -61,9 +75,10 @@ body {
     width: 100%;
     height: 100%;
     z-index: 2;
-    background-color:#e6e6e6;
+    background-color: var(--light);
     /*Font*/
-    color: #292929;
+    color: var(--dark);
+    font-size: 1em;
     text-transform: uppercase;
 }
 
@@ -84,7 +99,7 @@ section {
     height: fit-content;
     padding: 10% 0;
     margin-bottom: 2%;
-    border-bottom: 1px solid rgba(25, 27, 25, 0.3);
+    border-bottom: 1px solid var(--translucent-dark-3);
 }
 
 /*** Noise ***/
@@ -94,7 +109,7 @@ section {
     animation: noise 1s steps(10) infinite;
     width: 100vw;
     height: 100vh;
-    z-index: 1;
+    z-index: 3;
     position: fixed;
     opacity: 70%;
 }
@@ -147,8 +162,8 @@ h1 {
     font-family: Axiforma;
     font-size: 10px;
     letter-spacing: 3px;
-    margin-bottom: 5vh;
-    color: rgba(25, 27, 25, 0.4);
+    margin-bottom: 5%;
+    color: var(--translucent-dark-5);
 }    
 
 p {
@@ -182,7 +197,7 @@ h2 {
 
 h3 {
     font-family: Matroska;
-    font-size: px;
+    font-size: 25px;
     letter-spacing: 2px;
     line-height: 55px;
 }
@@ -211,7 +226,6 @@ a {
         text-align: left;
     }
 }
-
 
 /*** Breakpoint 2 at 950px ***/
 
