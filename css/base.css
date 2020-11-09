@@ -263,20 +263,13 @@ a {
         width: 85%;
     }
 
-    h1 {
-        font-size: 1.1em;
-        line-height: 19px;
-    }
-
-    h2 {
-        font-size: 1.2em;
-    }
-
+    h1,
+    h2,
     h3 {
         font-size: 1.1em;
         line-height: 19px;
     }
-
+    
     .text {
         width: 80%;
     }
