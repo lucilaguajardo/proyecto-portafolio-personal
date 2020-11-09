@@ -58,17 +58,37 @@ form {
     justify-items: center;
     margin-bottom: 25px;
     color: #292929;
-    z-index: 200;
     transition: 1s;
 }
 
-.contact-media-a:hover {
+.contact-media-links {
+    z-index: 200;
+}
+
+.contact-media-item {
+    width: fit-content;
+    transition: 1s;
+}
+
+.contact-media-a p {
+    transition: 1s;
+}
+
+.contact-media-a p:hover {
     letter-spacing: 5px;
+}
+
+.contact-media-item:hover .contact-media-a i {
+    font-size: 25px;
 }
 
 .contact-media-a i {
     font-size: 20px;
     margin-right: 15px;
+}
+
+.contact-media-a i:hover {
+    transition: 1s;
 }
 
 /*** Label ***/

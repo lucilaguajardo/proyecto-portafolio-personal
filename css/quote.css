@@ -33,8 +33,6 @@
     margin-bottom: 5%;
 }
 
-
-
 /*** Breakpoint 1 at 950px ***/
 
 @media (max-width: 950px) {
@@ -43,14 +41,11 @@
     }
 
     .quote-text {
-        width: 70%;
+        width: 85%;
     }
 
-     
     .quote-section i {
         font-size: 50px;
-        color: #e6e6e6;
-        margin-bottom: 5%;
-    }
-
+        margin-bottom: 11%;
+    }  
 }

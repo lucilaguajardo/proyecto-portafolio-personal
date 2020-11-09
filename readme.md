@@ -39,7 +39,7 @@ Este es el primer proyecto del **Curso de Desarrollo Front-End de Ada** y perten
 
 ### Description
 
-This is the first project from **Ada's Front-End Development Course** and it belongs to *Module 1: Introduction to HTML and CSS*. It reflects all the skills I acquired till date. I want to keep growing and that's why it is always very much welcomed.
+This is the first project from **Ada's Front-End Development Course** and it belongs to *Module 1: Introduction to HTML and CSS*. It reflects all the skills I acquired till date. I want to keep growing and that's why feedback is always very much welcomed.
 
 ### Technologies
 

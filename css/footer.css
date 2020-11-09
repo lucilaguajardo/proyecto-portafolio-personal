@@ -46,11 +46,16 @@ footer {
     letter-spacing: 7px;
 }
 
+.footer-media-icons {
+    height: 80px;
+    z-index: 52;
+}
+
 .footer-media-icons i  {
     font-size: 25px;
     color: #e6e6e6;
     opacity: 80%;
-    padding: 25px;
+    padding: 0 25px;
     box-sizing: none;
     transition: 1s;
 }
