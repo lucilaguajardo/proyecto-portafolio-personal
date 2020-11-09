@@ -213,7 +213,7 @@ a {
 }
 
 
-/*** Breakpoint 1 at 950px ***/
+/*** Breakpoint 2 at 950px ***/
 
 @media (max-width: 950px) {
     h1 {
@@ -236,9 +236,13 @@ a {
     section {
         margin-bottom: 5%;
     }
+
+    .text {
+        width: 60%;
+    }
 }
 
-/*** Breakpoint 3 at 500px ***/
+/*** Breakpoint 4 at 500px ***/
 
 @media (max-width: 500px) {
     main {

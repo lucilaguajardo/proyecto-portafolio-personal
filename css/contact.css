@@ -217,6 +217,7 @@ button:hover {
 }
 
 /*** Breakpoint 1 at 1200px ***/
+
 @media (max-width: 1200px) {
     .contact-container {
         text-align: left;
@@ -261,7 +262,7 @@ button:hover {
     }
 }
 
-/*** Breakpoint at 750px ***/
+/*** Breakpoint 3 at 750px ***/
 
 @media (max-width: 750px) {
     .contact-me{
@@ -270,7 +271,7 @@ button:hover {
     }
 }
 
-/*** Breakpoint 3 at 500px ***/
+/*** Breakpoint 4 at 500px ***/
 
 @media (max-width: 500px) {
     .contact-container {
