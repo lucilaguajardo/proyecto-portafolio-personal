@@ -239,10 +239,6 @@ a {
 /*** Breakpoint 3 at 750px ***/
 
 @media (max-width: 750px) {
-    h1 {
-        font-size: 1.9em;
-        line-height: 28px;
-    }
     main {
         width: 90%;
     }
@@ -251,6 +247,11 @@ a {
         margin-bottom: 5%;
     }
 
+    h1 {
+        font-size: 1.9em;
+        line-height: 28px;
+    }
+    
     .text {
         width: 60%;
     }

@@ -44,8 +44,22 @@
 
 /*** Breakpoint 1 at 500px ***/
 
-@media (max-width: 300px) {
+@media (max-width: 500px) {
     .projects-container {
         padding: 0;
     }
+}
+ 
+/*** Breakpoint 1 at 350px ***/
+
+@media (max-width: 350px) {
+    .project {
+        width: 100%;
+        height: auto;
+    }
+
+      .project:after {
+        content: "";
+        padding-bottom: 100%;
+      }
 }
