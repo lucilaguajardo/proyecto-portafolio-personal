@@ -1,11 +1,9 @@
 /*** Hello section ***/
 
 .hello-section {
-    /*Flex*/
     justify-content: left;
     flex-direction: row;
-    /*Box style*/
-    max-height: calc(100% - 80px);
+    min-height: calc(100% - 80px);
 }
 
 .hello-information {
