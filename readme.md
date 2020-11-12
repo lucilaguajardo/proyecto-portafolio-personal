@@ -3,19 +3,21 @@
 ## Podés verlo haciendo click [acá.](https://lucilaguajardo.github.io/proyecto-portafolio-personal/)
 
 ## Contenidos
+
 * [Descripción](#descripción)
 * [Avances](#avances)
 * [Tecnologías](#tecnologías)
 * [Clonado](#clonado)
+* [Dependencias](#dependencias)
 * [Agradecimientos](#agradecimientos)
 
 ### Descripción
 
-Este es el primer proyecto del **Curso de Desarrollo Front-End de Ada** y pertenece al *Módulo 1: Introducción a HTML y CSS*. En él se ven reflejados los conocimientos que adquirí hasta la fecha. Quiero seguir creciendo y por eso el feedback siempre es muy bienvenido.
+Este es el primer proyecto del **Curso de Desarrollo Front-End de Ada** y pertenece al *Módulo 1: Introducción a HTML y CSS*. En él se ven reflejados los conocimientos que adquirí hasta la fecha. Quiero crecer como desarrolladora y por eso el feedback siempre es muy bienvenido.
 
 ### Avances
 
-![Image](http://url/a.png)
+[Image](http://url/a.png)
 
 ### Tecnologías
 
@@ -24,16 +26,15 @@ Este es el primer proyecto del **Curso de Desarrollo Front-End de Ada** y perten
 
 ### Clonado
 
-Si querés clonar este repositorio y tenerlo en tu computadora tenés que seguir estos pasos:
+Si querés tener una copia de este repositorio seguí los siguientes pasos:
 
-  - Ir al [repositorio](https://lucilaguajardo.github.io/proyecto-portafolio-personal/)  
-  - Darle click al botón de forkear
-  - Darle click al botón de code
-  - Copiar la url
-  - Abrir tu terminal e ingresar el comando **git clone <url>**
-  - Entrar a la carpeta del proyecto y abrirlo en tu IDE
+  - En la página principal de este repositorio, clickeá el botón verde llamado **Code**.
+  - En la sección *Clone with HTTPS*, copiá la **URL** que está debajo.
+  - Después, en tu dispositivo local, abrí la terminal de bash y cambiá tu directorio actual y activo por la ubicación en la que quieras clonar el repositorio. Usá el comando de bash `cd` para ingresar a carpetas.
+  - Una vez que navegaste hasta el directorio donde querés poner el repositorio, ingresá `git clone` y pegá la URL que copiaste anteriormente justo al lado.
+  - Una vez que ejecutaste este comando, deberías tener una copia de este repositorio en tu computadora.
 
-### 
+### Dependencias
 
 Este proyecto no necesita la instalación de ninguna dependencia por ahora.
 
@@ -48,15 +49,17 @@ Este proyecto no necesita la instalación de ninguna dependencia por ahora.
 ## You can check it out by clicking [here.](https://lucilaguajardo.github.io/proyecto-portafolio-personal/)
 
 ## Contents
+
 * [Description](#description)
 * [Preview](#preview)
 * [Technologies](#technologies)
 * [Cloning](#cloning)
+* [Dependencies](#dependencies)
 * [Thanks](#thanks)
 
 ### Description
 
-This is the first project from **Ada's Front-End Development Course** and it belongs to *Module 1: Introduction to HTML and CSS*. It reflects all the skills I acquired till date. I want to keep growing and that's why feedback is always very much welcomed.
+This is the first project from **Ada's Front-End Development Course** and it belongs to *Module 1: Introduction to HTML and CSS*. It reflects all the skills I acquired till date. I want to grow as a developer and that's why feedback is always very much welcomed.
 
 ### Preview
 
@@ -69,15 +72,17 @@ This is the first project from **Ada's Front-End Development Course** and it bel
 
 ### Cloning
 
-If you want to clone this repository and have it in your computer follow theese steps:
+If you want to get a copy of this repository follow these steps:
 
-  - Go to my [repository](https://lucilaguajardo.github.io/proyecto-portafolio-personal/)  
-  - Click on the fork button
-  - Click the code button
-  - Copy the url
-  - Open your terminal and enter the command **git clone <url>**
-  - Enter the project's folder and open it on your IDE
+  - On the main page of this repository, click the green button labeled as **Code**. 
+  - In the *Clone with HTTPS* section, copy the **URL** bellow.
+  - Then, on your local device, open your bash shell and change your current working directory to the location where you would like to clone your repository. Use the bash command `cd` to enter folders.
+  - Once you have navigated to the directory where you want to put your repository, enter `git clone` and paste the URL you copied earlier right next to that.
+  - After you ran this command, you should now have a copy of this repository in your local computer.
+
+### Dependencies
 
 ### Thanks
-* A [Jonh](https://github.com/Jonhks) y [Leydy](https://github.com/leydyk93)
+
+* To [Jonh](https://github.com/Jonhks) and [Leydy](https://github.com/leydyk93)
 * To my family and friends
