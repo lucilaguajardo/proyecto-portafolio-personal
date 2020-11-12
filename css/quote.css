@@ -9,6 +9,7 @@
     background-color: var(--dark);
     /*Font*/
     color: var(--light);
+    text-align: center;
 }
 
 .quote-section-number {
