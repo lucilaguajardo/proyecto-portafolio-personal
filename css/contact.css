@@ -5,11 +5,9 @@
 }
 
 .contact-container {
-    /*Flex*/
     display: flex;
     flex-direction: row;
     align-self: center;
-    /*Box style*/
     width: 90%;
     padding: 30px 40px;
     border: 1px solid var(--translucent-dark-3);
@@ -100,11 +98,9 @@ label {
 /*** Input ***/
 
 input {
-    /*Font*/
     font-family: Axiforma;
     font-size: 10px;
     letter-spacing: 3px;
-    /*Box style*/
     border-radius: 100px;
     border: none;
     padding: 10px 20px;
@@ -142,12 +138,10 @@ input:focus::placeholder {
 /*** Textarea ***/
 
 textarea {
-    /*Font*/
     font-family: Axiforma;
     font-size: 10px;
     letter-spacing: 3px;
-    color:  var(--dark);
-    /*Box style*/
+    color: var(--dark);
     border-radius: 20px;
     border: none;
     padding: 20px 25px;
@@ -159,7 +153,7 @@ textarea {
 
 textarea:focus {
     border: none;
-    outline:none !important;
+    outline: none !important;
     outline-width: 0 !important;
     background-color: var(--translucent-dark-1);
 }
@@ -184,16 +178,13 @@ abbr {
 /*** Send button ***/
 
 button {
-    /*Flex*/
     display: flex;
     justify-content: center;
     align-items: center;
-    /*Font*/
     font-family: Axiforma;
     font-size: 12px;
     letter-spacing: 3px;
     color: var(--light);
-    /*Box style*/
     padding: 15px 40px;
     border-radius: 100px;
     border: none;
@@ -228,7 +219,6 @@ button:hover {
 
 @media (max-width: 950px) {
     .contact-container {
-        display: flex;
         flex-direction: column;
         width: 100%;
         padding: 0;
@@ -277,7 +267,7 @@ button:hover {
         border: none;
     }
         
-    .contact-me{
+    .contact-me {
         max-width: 100%;
         margin-bottom: 20px;
     }

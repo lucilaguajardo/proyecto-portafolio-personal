@@ -36,7 +36,7 @@ Si querés tener una copia de este repositorio seguí los siguientes pasos:
 
 ### Dependencias
 
-Este proyecto no necesita la instalación de ninguna dependencia por ahora.
+Este proyecto no requiere la instalación de ninguna dependencia por el momento.
 
 ### Agradecimientos
 
@@ -74,13 +74,15 @@ This is the first project from **Ada's Front-End Development Course** and it bel
 
 If you want to get a copy of this repository follow these steps:
 
-  - On the main page of this repository, click the green button labeled as **Code**. 
+  - On the main page of this repository, click on the green button labeled as **Code**. 
   - In the *Clone with HTTPS* section, copy the **URL** bellow.
   - Then, on your local device, open your bash shell and change your current working directory to the location where you would like to clone your repository. Use the bash command `cd` to enter folders.
   - Once you have navigated to the directory where you want to put your repository, enter `git clone` and paste the URL you copied earlier right next to that.
   - After you ran this command, you should now have a copy of this repository in your local computer.
 
 ### Dependencies
+
+This project does not require the installation of any dependencies at the moment.
 
 ### Thanks
 

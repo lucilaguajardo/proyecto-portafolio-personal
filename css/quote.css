@@ -1,26 +1,22 @@
 /*** Quote section ***/
 
 .quote-section {
-    /*Flex*/
     flex-direction: column; 
     align-items: center;
-    /*Box style*/
     border-bottom: none;
     background-color: var(--dark);
-    /*Font*/
+    font-family: Axiforma;
     color: var(--light);
     text-align: center;
 }
 
 .quote-section-number {
-    font-family: Axiforma;
     font-size: 10px;
     letter-spacing: 3px;
-    margin-bottom: 5vh;
+    margin-bottom: 5%;
 }   
 
 .quote-text {
-    font-family: Axiforma;
     font-size: 11px;
     letter-spacing: 3px;
     width: 40%;

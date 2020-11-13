@@ -1,18 +1,15 @@
 /*** Footer ***/
 
 footer {
-    /*Flex*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*Box style*/
     width: 95%;
     height: 10%;
     margin-bottom: 2%;
     padding: 7rem 0;
     background-color: var(--dark);
-    /*Font*/
     color: var(--light);
 }
 
@@ -51,7 +48,7 @@ footer {
     z-index: 4;
 }
 
-.footer-media-icons i  {
+.footer-media-icons i {
     font-size: 25px;
     color: var(--light);
     opacity: 80%;
@@ -82,7 +79,7 @@ footer {
     }
 }
 
-/*** Breakpoint 3 at 750px ***/
+/*** Breakpoint 2 at 750px ***/
 
 @media (max-width: 750px) {
     footer {
@@ -90,7 +87,7 @@ footer {
     }
 }
 
-/*** Breakpoint 2 at 500px ***/
+/*** Breakpoint 3 at 500px ***/
 
 @media (max-width: 500px) {
     footer {
@@ -99,13 +96,12 @@ footer {
         box-sizing: none;
     }
 
-    .footer-media-icons i  {
+    .footer-media-icons i {
         padding: 0 12px;
     }
 
     .footer-media-icons {
         height: 40px;
         z-index: 4;
-    }
-    
+    }  
 }

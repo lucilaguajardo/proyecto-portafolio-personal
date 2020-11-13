@@ -30,7 +30,6 @@
 @media (max-width: 950px) {
 
     .hello-information {
-        display: flex;
         flex-direction: column;
         width: 100%;
         align-items: center;
