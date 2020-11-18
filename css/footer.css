@@ -67,6 +67,12 @@ footer {
     opacity: 80%;
 }
 
+/*
+  *********************************** 
+            Responsiveness
+  ***********************************
+*/
+
 /*** Breakpoint 1 at 950px ***/
 
 @media (max-width: 950px) {

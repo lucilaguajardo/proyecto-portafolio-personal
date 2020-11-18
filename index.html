@@ -3,34 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio personal de Lucila Guajardo">
-    <!-- ##### LINKS CSS ##### -->
+
+    <meta name="author" content="Lucila Guajardo"> 
+    <meta name="description" content="Lucila Guajardo - Desarrolladora Front-End y diseñadora gráfica de Buenos Aires.">
+    <meta name="keywords" content="Portafolio, Desarrollo Front-End, Desarrollo Web">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Portafolio">
+    <meta property="og:description" content="Lucila Guajardo - Desarrolladora Front-End y diseñadora gráfica de Buenos Aires.">
+    <meta property="og:type" content="article">
+    <meta property="og:site name" content="Lucila Guajardo">
+    <meta property="og:url" content="https://lucilaguajardo.github.io/proyecto-portafolio-personal/">
+    <meta property="og:img" content="img">
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+
+    <!-- # Links CSS # -->
+    <!-- Base -->
     <link rel="stylesheet" href="./css/base.css">
+    <!-- Header -->
     <link rel="stylesheet" href="./css/header.css">
+    <!-- Hello -->
     <link rel="stylesheet" href="./css/hello.css">
+    <!-- Skills -->
     <link rel="stylesheet" href="./css/skills.css">
+    <!-- Quote -->
     <link rel="stylesheet" href="./css/quote.css">
+    <!-- Projects -->
     <link rel="stylesheet" href="./css/projects.css">
+    <!-- Contact -->
     <link rel="stylesheet" href="./css/contact.css">
+    <!-- Footer -->
     <link rel="stylesheet" href="./css/footer.css">
-    <!-- ##### FAVICON ##### -->
+
+    <!-- # Favicon # -->
     <link rel="shortcut icon" href="./img/favicon.svg" type="image/x.icon">
-    <!-- ##### ICONS ##### -->
+
+    <!-- # Icons # -->
     <script src="https://kit.fontawesome.com/e724a02081.js" crossorigin="anonymous"></script>
-    <!-- ##### TITLE ##### -->
+
+    <!-- # Title # -->
     <title>Lucila Guajardo</title>
 </head>
+
 <body>
-    <!-- ##### NOISE ##### -->
+    <!-- # Noise # -->
     <div class="noise"></div>
-    <!-- ##### HEADER ##### -->
+    <!-- # Header # -->
     <header>
-        <a href="#" target="_self" class="menu-header">
-            <i class="fas fa-bars"></i>
-        </a>
-        <!-- ##### HEADER NAV ##### -->
+        <!-- Hamburguer button -->
+        <nav role="navigation" class="header-hidden-menu">
+            <div id="hamburguer-menu">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="#hello"><li>Hola</li></a>
+                    <a href="#skills"><li>Conocimientos</li></a>
+                    <a href="#projects"><li>Proyectos</li></a>
+                    <a href="#contact"><li>Contacto</li></a>
+                </ul>
+            </div>
+        </nav>
+        <!-- Header nav -->
         <nav class="nav-header">
-            <ul class="ul-nav-header">
+            <ul class="ul-nav-header" id="nav-header">
                 <li class="item-nav-header">
                     <a href="#hello" class="a-nav">Hola</a>
                 </li>
@@ -43,24 +81,23 @@
                 <li class="item-nav-header">
                     <a href="#contact" class="a-nav">Contacto</a>
                 </li>
+                <!-- <input type="checkbox" class="dark-mode"> -->
             </ul>
         </nav>
-        <!-- ##### HEADER NAV END ##### -->
     </header>
-    <!-- ##### HEADER END ##### -->
-    <!-- ##### MAIN ##### -->
+    <!-- # Main # -->
     <main> 
-        <!-- ##### HELLO SECTION ##### -->
+        <!-- # Hello section # -->
         <section id="hello" class="hello-section">
             <div class="hello-information">
                 <p class="section-number">01/</p>
+                <!-- <p class="hello-description">Hola 👋🏻 </br> Mi nombre es</p> -->
                 <h1 class="hello-title">Lucila</br>Guajardo</h1>
                 <p class="hello-description">Desarrolladora FrontEnd, diseñadora y comunicadora.</p>
                 <p class="description">{Lo que hago}</p>
             </div>
         </section>
-        <!-- ##### HELLO SECTION END ##### -->
-        <!-- ##### SKILLS SECTION ##### -->
+        <!-- # Skills section # -->
         <section id="skills" class="skills-section">
             <p class="section-number">02/</p>
             <h1>Conocimientos</br></h1>
@@ -93,16 +130,14 @@
                 </div>
             </div>
         </section>
-        <!-- ##### SKILLS SECTION END ##### -->
-        <!-- ##### QUOTE SECTION ##### -->
+        <!-- # Quote section # -->
         <section class="quote-section">
             <p class="quote-section-number">03/</p>
             <i class="fas fa-quote-right"></i>
             <p class="quote-text">Aprende las reglas como un profesional</br>para que puedas romperlas como un artista.</p>
             <h3 class="quote-author">Pablo Picasso</h3>
         </section>
-        <!-- ##### QUOTE SECTION END ##### -->
-        <!-- ##### PROJECTS SECTION ##### -->
+        <!-- # Projects section # -->
         <section id="projects" class="projects-section">
             <p class="section-number">04/</p>
             <h1>Proyectos</h1>
@@ -133,8 +168,7 @@
                 </a>
             </div>
         </section>
-        <!-- ##### PROJECT SECTION END ##### -->
-        <!-- ##### CONTACT SECTION ##### -->
+        <!-- # Contact section # -->
         <section id="contact" class="contact-section">
             <p class="section-number">05/</p>
             <div class="contact-container">
@@ -142,34 +176,33 @@
                 <div class="contact-me">
                 <h2>Contactame</h2>
                 <p class="contact-text">Amo comenzar nuevos proyectos.</br> Si tenés una idea en mente podés enviarme un mensaje a través de estos links o escribirme en el siguiente formulario.</p>
-                    <div class="contact-media-links">
+                    <div class="contact-media-links" aria-label="Links de redes sociales">
                         <div class="contact-media-item">
-                            <a href="#" target="_blank" class="contact-media-a">
+                            <a href="#" target="_blank" class="contact-media-a" aria-label="Twitter">
                                 <i class="fab fa-twitter"></i>
                                 <p class="contact-media-handle">/lucilaguajardo</p>
                             </a>
                         </div>
                         <div class="contact-media-item">
-                            <a href="https://github.com/lucilaguajardo/proyecto-portafolio-personal" target="_blank" class="contact-media-a">
+                            <a href="https://github.com/lucilaguajardo/proyecto-portafolio-personal" target="_blank" class="contact-media-a"  aria-label="Github"> 
                                 <i class="fab fa-github-alt"></i>
                                 <p class="contact-media-handle">/lucilaguajardo</p>
                             </a>
                         </div>
                         <div class="contact-media-item">
-                            <a href="https://www.linkedin.com/in/lucilaguajardo/" target="_blank" class="contact-media-a">
+                            <a href="https://www.linkedin.com/in/lucilaguajardo/" target="_blank" class="contact-media-a"  aria-label="Linkedin">
                                 <i class="fab fa-linkedin-in"></i>
                                 <p class="contact-media-handle">/lucilaguajardo</p>
                             </a>
                         </div>
                         <div class="contact-media-item">
-                            <a href=":mailto:lucilarocioguajardo@gmail.com" target="_blank" class="contact-media-a">
+                            <a href=":mailto:lucilarocioguajardo@gmail.com" target="_blank" class="contact-media-a"  aria-label="Email">
                                 <i class="far fa-envelope"></i>
                                 <p class="contact-media-handle">guajardo@gmail.com</p>
                             </a>
                         </div>
                     </div>
                 </div>
-                <!-- End contact me container -->
                 <!-- Write me container -->
                 <div class="write-me">
                 <h2>Escribime</h2>
@@ -203,13 +236,10 @@
                     <button type="submit" class="contact-send-button">ENVIAR</button>
                 </form>
                 </div>
-                <!-- End write me container -->
             </div>
         </section>
-        <!-- ##### CONTACT SECTION END ##### -->
     </main>
-    <!-- ##### MAIN END ##### -->
-    <!-- ##### FOOTER ##### -->
+    <!-- # Footer # -->
     <footer>
         <nav class="nav-footer">
             <ul class="ul-nav-footer">
@@ -228,21 +258,20 @@
             </ul>
         </nav>
         <div class="footer-media-icons">
-            <a href="#" target="_blank">
+            <a href="#" target="_blank" aria-label="Twitter">
                 <i class="fab fa-twitter"></i>
             </a>
-            <a href="https://github.com/lucilaguajardo/proyecto-portafolio-personal" target="_blank">
+            <a href="https://github.com/lucilaguajardo/proyecto-portafolio-personal" target="_blank" aria-label="Github"> 
                 <i class="fab fa-github-alt"></i>
             </a>
-            <a href="https://www.linkedin.com/in/lucilaguajardo/" target="_blank">
+            <a href="https://www.linkedin.com/in/lucilaguajardo/" target="_blank" aria-label="Linkedin">
                 <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href=":mailto:lucilarocioguajardo@gmail.com" target="_blank">
+            <a href=":mailto:lucilarocioguajardo@gmail.com" target="_blank" aria-label="Email">
                 <i class="far fa-envelope"></i>
             </a>
         </div>
         <p class="footer-text">Hecho en <span>🇦🇷</span></p>
     </footer>
-    <!-- ##### FOOTER END ##### -->
 </body>
 </html>

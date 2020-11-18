@@ -1,5 +1,3 @@
-/*** Skills section ***/
-
 .skills-section {
     justify-content: left;
     flex-direction: column;
@@ -37,6 +35,12 @@
     font-size: 80px;
     margin-bottom: 20px;
 }
+
+/*
+  *********************************** 
+            Responsiveness
+  ***********************************
+*/
 
 /*** Breakpoint 1 at 750px ***/
 

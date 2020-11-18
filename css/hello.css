@@ -1,9 +1,7 @@
-/*** Hello section ***/
-
 .hello-section {
     justify-content: left;
     flex-direction: row;
-    min-height: calc(100% - 80px);
+    min-height: calc(100vh - 80px);
 }
 
 .hello-information {
@@ -11,6 +9,12 @@
     flex-direction: column;
     width: 50%;
 }
+
+/*
+  *********************************** 
+            Responsiveness
+  ***********************************
+*/
 
 /*** Breakpoint 1 at 1200 ***/
 
@@ -28,6 +32,10 @@
 /*** Breakpoint 2 at 950px ***/
 
 @media (max-width: 950px) {
+
+    .hello-section {
+        min-height: fit-content;
+    }
 
     .hello-information {
         flex-direction: column;
