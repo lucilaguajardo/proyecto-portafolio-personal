@@ -1,5 +1,7 @@
 .contact-section {
     flex-direction: column;
+    text-align: left;
+    font-family: Axiforma;
 }
 
 .contact-container {
@@ -100,7 +102,6 @@ label {
 /*** Input ***/
 
 input {
-    font-family: Axiforma;
     font-size: 10px;
     letter-spacing: 3px;
     border-radius: 100px;
@@ -140,7 +141,6 @@ input:focus::placeholder {
 /*** Textarea ***/
 
 textarea {
-    font-family: Axiforma;
     font-size: 10px;
     letter-spacing: 3px;
     color: var(--dark);
@@ -161,7 +161,6 @@ textarea:focus {
 }
 
 textarea::placeholder {
-    font-family: Axiforma;
     font-size: 10px;
     letter-spacing: 3px;
     color: var(--placeholder-grey);

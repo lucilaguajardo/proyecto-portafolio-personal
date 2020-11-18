@@ -59,8 +59,6 @@ header {
     display: block;
     position: relative;
   
-    z-index: 3;
-  
     -webkit-user-select: none;
     user-select: none;
 }
@@ -116,7 +114,6 @@ header {
 #hamburguer-menu input:checked ~ span {
     opacity: 1;
     transform: rotate(25deg) translate(-2px, -1px);
-    background: var(--light);
 }
 
 #hamburguer-menu input:checked ~ span:nth-last-child(3) {
@@ -138,14 +135,14 @@ header {
     align-content: center;
     position: absolute;
 
-    width: 100vw;
+    width: 90vw;
     height: fit-content;
     margin-top: -60px;
-    margin-left: calc(-50vw + 16px);
+    margin-left: calc(-45vw + 16px);
     padding: 50px;
     padding-top: 100px;
   
-    background-color: var(--translucent-dark-3);
+    background-color: var(--light);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
   
@@ -154,7 +151,7 @@ header {
   
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 
-    z-index: 3;
+    z-index: 2;
 }
 
 #menu li {
@@ -165,7 +162,7 @@ header {
     letter-spacing: 0.19em;
     padding: 10px 0;
     transition: letter-spacing 1s;
-    color: var(--light);
+    color: var(--dark);
 
     width: fit-content;
 
@@ -210,7 +207,6 @@ header {
 @media (max-width: 950px) {
     header {
         border-bottom: none;
-        z-index: 6;
         background-color: transparent;
     }
 
@@ -220,5 +216,14 @@ header {
 
     .header-hidden-menu {
         display: flex !important;
+    }
+}
+
+/*** Breakpoint 2 at 500px (Hamburguer menu) ***/
+
+@media (max-width: 500px) {
+    #menu {
+        width: 85vw;
+        margin-left: calc(-42vw + 12px);
     }
 }

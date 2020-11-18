@@ -2,6 +2,7 @@
     justify-content: left;
     flex-direction: row;
     min-height: calc(100vh - 80px);
+    text-align: left;
 }
 
 .hello-information {
@@ -22,6 +23,8 @@
 
     .hello-section {
         flex-direction: column;
+        text-align: center;
+}
     }
 
     .hello-information {
