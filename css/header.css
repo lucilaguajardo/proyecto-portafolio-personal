@@ -77,6 +77,12 @@ header {
     -webkit-touch-callout: none;
 }
 
+#hamburguer-menu input:checked ~ ul
+{
+    transform: none;
+    z-index: 3;
+}
+
 /*
  * Hamburguer 
  */
@@ -177,14 +183,6 @@ header {
     color: var(--dark);
 
     width: fit-content;
-}
-
-/*
- * And let's slide it in from the left
- */
-#hamburguer-menu input:checked ~ ul
-{
-  transform: none;
 }
 
 /*
