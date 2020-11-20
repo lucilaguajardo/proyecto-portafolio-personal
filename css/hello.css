@@ -1,14 +1,21 @@
 .hello-section {
-    justify-content: left;
+    justify-content: space-evenly;
     flex-direction: row;
     min-height: calc(100vh - 80px);
     text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .hello-information {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
+}
+
+.hello-image {
+    width: 25%;
+    height: 50%;
 }
 
 /*
@@ -28,6 +35,10 @@
 
     .hello-information {
         width: 100%;
+    }
+
+    .hello-image {
+        display: none;
     }
 }
 
