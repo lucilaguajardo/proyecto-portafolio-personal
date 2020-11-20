@@ -161,6 +161,7 @@ textarea:focus {
 }
 
 textarea::placeholder {
+    font-family: Axiforma;
     font-size: 10px;
     letter-spacing: 3px;
     color: var(--placeholder-grey);
