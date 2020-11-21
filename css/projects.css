@@ -73,11 +73,22 @@
 @media (max-width: 350px) {
     .project {
         width: 100%;
-        height: auto;
+        height: fit-content;
+        justify-content: center;
     }
 
-      .project:after {
+    .project:after {
         content: "";
-        padding-bottom: 100%;
-      }
+        padding-bottom: 25%;
+    }
+
+    .project-1-image {
+        width: 40%;
+    }
+
+    .project-coming-soon {
+        font-size: 17px;
+        line-height: 19px;
+    }
+
 }

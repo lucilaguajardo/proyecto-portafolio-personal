@@ -17,7 +17,7 @@ Este es el primer proyecto del **Curso de Desarrollo Front-End de Ada** y perten
 
 ### Avances
 
-[Image](http://url/a.png)
+![Image](./img/preview.png)
 
 ### Tecnologías
 
@@ -51,7 +51,6 @@ Este proyecto no requiere la instalación de ninguna dependencia por el momento.
 ## Contents
 
 * [Description](#description)
-* [Preview](#preview)
 * [Technologies](#technologies)
 * [Cloning](#cloning)
 * [Dependencies](#dependencies)
@@ -60,10 +59,6 @@ Este proyecto no requiere la instalación de ninguna dependencia por el momento.
 ### Description
 
 This is the first project from **Ada's Front-End Development Course** and it belongs to *Module 1: Introduction to HTML and CSS*. It reflects all the skills I acquired till date. I want to grow as a developer and that's why feedback is always very much welcomed.
-
-### Preview
-
-[Image](http://url/a.png)
 
 ### Technologies
 
